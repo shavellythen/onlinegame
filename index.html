@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isabella's Word Game</title>
+    <meta name="description"
+        content="Explore this interactive guessing game, created to support children with dyslexia, including my daughter Isabella." />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/pink-cat-favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Script -->
+    <script src="js/test.js" defer=""></script>
+</head>
+
+<body>
+
+    <div><img class="logo" src="assets/bellas-logo.svg" alt="Isabella's Logo"></div>
+    
+    <div class="game">
+    <h4>Select the card with the correct word:</h4>
+
+        <div class="container">
+            <div class="card purple incorrect">aeppl</div>
+            <div class="card orange correct">apple</div>
+        </div>
+
+        <div class="container">
+            <div class="card orange correct">which</div>
+            <div class="card purple incorrect">wich</div>
+        </div>
+
+        <div class="container">
+            <div class="card orange incorrect">wif</div>
+            <div class="card purple correct">with</div>
+        </div>
+
+        <div class="container">
+            <div class="card orange correct">friend</div>
+            <div class="card purple incorrect">freind</div>
+        </div>
+
+        <div class="container">
+            <div class="card purple correct">does</div>
+            <div class="card orange incorrect">dose</div>
+        </div>
+
+        <div class="container">
+            <div class="card purple correct">said</div>
+            <div class="card orange incorrect">siad</div>
+        </div>
+
+        <div class="container">
+            <div class="card purple incorrect">waht</div>
+            <div class="card orange correct">what</div>
+        </div>
+
+        <div class="container">
+            <div class="card orange incorrect">clcok</div>
+            <div class="card purple correct">clock</div>
+        </div>
+
+        <div class="container">
+            <div class="card orange incorrect">hav</div>
+            <div class="card purple correct">have</div>
+        </div>
+
+        <div class="container">
+            <div class="card orange correct">look</div>
+            <div class="card purple incorrect">luk</div>
+        </div>
+        
+            <div id="gif-container">
+                <img src="assets/cat-box.gif" alt="Celebration GIF" id="score-gif">
+            </div>
+        </div>
+
+
+    <div id="result" class="result"></div>
+
+    <div id="gif">
+        <img src="assets/cat-box.gif" alt="Celebration GIF" id="score-gif">
+    </div>
+</div>
+<audio id="meow-sound" src="assets/cat-meow.wav" preload="auto"></audio>
+<audio id="meow-angry" src="assets/cat-angry.wav" preload="auto"></audio>
+</body>
+
+</html>
